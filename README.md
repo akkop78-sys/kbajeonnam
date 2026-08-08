@@ -25,9 +25,20 @@ python tools/sync_kba.py
 
 ## 배포 (GitHub Pages)
 
-- 저장소 `main` 푸시 또는 매일 자동으로 `website/`를 배포합니다.
-- 배포 시 중앙회 자료도 다시 동기화합니다.
-- Actions → Deploy GitHub Pages 워크플로에서 주소를 확인하세요.
+- **공개 주소**: https://akkop78-sys.github.io/kba-jeonnam/
+- **저장소**: https://github.com/akkop78-sys/kba-jeonnam
+- `website/` 내용이 `gh-pages` 브랜치로 배포됩니다.
+
+사이트 내용 수정 후 다시 배포:
+
+```bash
+python tools/sync_kba.py
+git add -A
+git commit -m "Update site"
+git push origin main
+git subtree split --prefix website -b gh-pages
+git push origin gh-pages --force
+```
 
 ## 주요 페이지
 
