@@ -25,8 +25,8 @@ python tools/sync_kba.py
 
 ## 배포 (GitHub Pages)
 
-- **공개 주소**: https://akkop78-sys.github.io/kba-jeonnam/
-- **저장소**: https://github.com/akkop78-sys/kba-jeonnam
+- **공개 주소**: https://akkop78-sys.github.io/kbajeonnam/
+- **저장소**: https://github.com/akkop78-sys/kbajeonnam
 - `website/` 내용이 `gh-pages` 브랜치로 배포됩니다.
 
 사이트 내용 수정 후 다시 배포:
