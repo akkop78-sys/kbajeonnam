@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>대회·일정 | 전남권투협회</title>
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">
+        <span class="brand-mark">KBA</span>
+        <span>
+          <span class="brand-en">KOREA BOXING ASSOCIATION</span>
+          <span class="brand-ko">전남권투협회<small>(사)한국권투협회 전남지회</small></span>
+        </span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false">메뉴</button>
+      <nav class="nav">
+        <a href="../index.html">홈</a>
+        <a href="about.html">인사말</a>
+        <a href="organization.html">조직도</a>
+        <a href="history.html">역사·챔피언</a>
+        <a href="bylaws.html">정관</a>
+        <a class="active" href="events.html">대회</a>
+        <a href="news.html">소식</a>
+        <a href="register.html">등록</a>
+        <a href="contact.html">문의</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1>대회·일정</h1>
+      <p>중앙회(<a href="http://www.kbaboxing.co.kr/" target="_blank" rel="noopener" style="color:var(--gold)">kbaboxing.co.kr</a>) 자료 자동 연동</p>
+    </div>
+  </section>
+
+  <main class="section">
+    <div class="container reveal" data-tabs>
+      <p class="meta" data-kba-updated>동기화 상태 확인 중…</p>
+      <div class="news-tabs" style="margin-top:1rem">
+        <button class="tab-btn active" type="button" data-tab="sched">경기일정</button>
+        <button class="tab-btn" type="button" data-tab="result">경기결과</button>
+        <button class="tab-btn" type="button" data-tab="protest">프로테스트</button>
+        <button class="tab-btn" type="button" data-tab="rank">랭킹</button>
+      </div>
+      <div class="panel">
+        <div id="sched" class="tab-panel active">
+          <ul class="board-list" data-kba="schedule" data-limit="12"><li>불러오는 중…</li></ul>
+          <p style="margin-top:1rem"><a data-kba-link="schedule" href="http://www.kbaboxing.co.kr/schedule" target="_blank" rel="noopener">중앙회 일정 안내 →</a></p>
+        </div>
+        <div id="result" class="tab-panel">
+          <ul class="board-list" data-kba="results" data-limit="12"><li>불러오는 중…</li></ul>
+          <p style="margin-top:1rem"><a data-kba-link="results" href="http://www.kbaboxing.co.kr/board_ROOX28" target="_blank" rel="noopener">중앙회 결과 게시판 →</a></p>
+        </div>
+        <div id="protest" class="tab-panel">
+          <ul class="board-list" data-kba="protest" data-limit="12"><li>불러오는 중…</li></ul>
+          <p style="margin-top:1rem"><a data-kba-link="protest" href="http://www.kbaboxing.co.kr/Information" target="_blank" rel="noopener">프로테스트·합격자 정보 →</a></p>
+        </div>
+        <div id="rank" class="tab-panel">
+          <ul class="board-list" data-kba="ranking" data-limit="12"><li>불러오는 중…</li></ul>
+          <p style="margin-top:1rem"><a data-kba-link="ranking" href="http://www.kbaboxing.co.kr/status_ranking" target="_blank" rel="noopener">남자 선수 랭킹 →</a></p>
+        </div>
+      </div>
+      <p class="notice-banner">전남지회 자체 대회가 확정되면 상단에 별도 공지됩니다. 전국 일정은 중앙회와 동기화됩니다.</p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container"><p class="copyright">© 2026 (사)한국권투협회 전남지회</p></div>
+  </footer>
+  <script src="../js/main.js"></script>
+  <script src="../js/kba-feed.js"></script>
+</body>
+</html>

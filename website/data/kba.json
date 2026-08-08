@@ -1,0 +1,465 @@
+{
+  "source": "http://www.kbaboxing.co.kr",
+  "updated_at": "2026-08-08T17:45:18+09:00",
+  "hq": {
+    "name": "사단법인 한국권투협회",
+    "address": "서울특별시 관악구 남부순환로 1361 3층 (신림동)",
+    "tel": "02-838-1233",
+    "fax": "02-838-1232",
+    "email": "kba122@hanmail.net",
+    "url": "http://www.kbaboxing.co.kr/"
+  },
+  "links": {
+    "home": "http://www.kbaboxing.co.kr/",
+    "schedule": "http://www.kbaboxing.co.kr/schedule",
+    "results": "http://www.kbaboxing.co.kr/board_ROOX28",
+    "protest": "http://www.kbaboxing.co.kr/Information",
+    "ranking": "http://www.kbaboxing.co.kr/status_ranking",
+    "video": "http://www.kbaboxing.co.kr/video"
+  },
+  "notices": [
+    {
+      "title": "[결혼식 안내] 변교선대전복싱 변교선 관장님의 자제분 결혼...",
+      "url": "http://www.kbaboxing.co.kr/notice/43740",
+      "date": "2026.08.01",
+      "notice": false
+    },
+    {
+      "title": "[결혼식 안내] 한국권투협회 장기중 부회장의 자제분 결혼식...",
+      "url": "http://www.kbaboxing.co.kr/notice/43719",
+      "date": "2026.07.31",
+      "notice": false
+    },
+    {
+      "title": "창원몬스터 배경주 , 중국에서 WBC 동아시아 챔피언 등극 !",
+      "url": "http://www.kbaboxing.co.kr/notice/43604",
+      "date": "2026.07.11",
+      "notice": false
+    },
+    {
+      "title": "[訃告] 강신희 사무총장 빙모상",
+      "url": "http://www.kbaboxing.co.kr/notice/41600",
+      "date": "2026.05.03",
+      "notice": false
+    },
+    {
+      "title": "한국 복싱의 새 역사, 신보미레 선수 통합 세계타이틀매치전 ...",
+      "url": "http://www.kbaboxing.co.kr/notice/41516",
+      "date": "2026.04.17",
+      "notice": false
+    },
+    {
+      "title": "사)한국권투협회 전담캐스터를 소개합니다. (김승원 캐스터, ...",
+      "url": "http://www.kbaboxing.co.kr/notice/40814",
+      "date": "2026.03.25",
+      "notice": false
+    },
+    {
+      "title": "[訃告] 원로 권투인 이원복님 별세",
+      "url": "http://www.kbaboxing.co.kr/notice/39050",
+      "date": "2026.03.10",
+      "notice": false
+    },
+    {
+      "title": "[산수연 안내] 스타프로모션 김종훈 프로모터의 모친 팔순을 ...",
+      "url": "http://www.kbaboxing.co.kr/notice/37550",
+      "date": "2026.01.21",
+      "notice": false
+    },
+    {
+      "title": "케이블 방송eytv 정규편성 확정 [유튜브 꼰투TV]",
+      "url": "http://www.kbaboxing.co.kr/notice/36955",
+      "date": "2026.01.14",
+      "notice": false
+    },
+    {
+      "title": "2025 프로권투 시상식 - 권투인의 밤 [정기총회] (26년 1월 2...",
+      "url": "http://www.kbaboxing.co.kr/notice/36929",
+      "date": "2026.01.06",
+      "notice": false
+    },
+    {
+      "title": "[제63회 WBC 총회 시상식 - 태국 방콕]",
+      "url": "http://www.kbaboxing.co.kr/notice/36787",
+      "date": "2025.12.15",
+      "notice": false
+    },
+    {
+      "title": "[OPBF 회의 참석 - 태국 방콕]",
+      "url": "http://www.kbaboxing.co.kr/notice/36782",
+      "date": "2025.12.15",
+      "notice": false
+    }
+  ],
+  "schedule": [
+    {
+      "title": "상대 미정 명단 (8월 6일 기준)",
+      "url": "http://www.kbaboxing.co.kr/schedule/24357",
+      "date": "2026.08.04",
+      "notice": true
+    },
+    {
+      "title": "11월 21일 제13회 프로복싱 국가대항전 (충청도)",
+      "url": "http://www.kbaboxing.co.kr/schedule/43697",
+      "date": "2026.07.27",
+      "notice": false
+    },
+    {
+      "title": "11월 14일 경북지회장배 프로복싱 랭킹전 (경주)",
+      "url": "http://www.kbaboxing.co.kr/schedule/43716",
+      "date": "2026.07.27",
+      "notice": false
+    },
+    {
+      "title": "10월 24일 버팔로 프로모션 주최 , 프로복싱 챔피언전 (경기 용인)",
+      "url": "http://www.kbaboxing.co.kr/schedule/43764",
+      "date": "2026.07.27",
+      "notice": false
+    },
+    {
+      "title": "10월 17일 프로복싱 랭킹전 (대전)",
+      "url": "http://www.kbaboxing.co.kr/schedule/43695",
+      "date": "2026.07.27",
+      "notice": false
+    },
+    {
+      "title": "9월 19일 관장협의회 주최 , 제8회 신인 정기전 (경기도)",
+      "url": "http://www.kbaboxing.co.kr/schedule/43693",
+      "date": "2026.07.27",
+      "notice": false
+    },
+    {
+      "title": "8월 22일 관장협의회 주최 , 제7회 신인 정기전 (경기 안산)",
+      "url": "http://www.kbaboxing.co.kr/schedule/41647",
+      "date": "2026.07.15",
+      "notice": false
+    },
+    {
+      "title": "8월 8일 경기남부지회 주최 , 프로복싱 랭킹전 (경기 평택)",
+      "url": "http://www.kbaboxing.co.kr/schedule/41631",
+      "date": "2026.07.15",
+      "notice": false
+    },
+    {
+      "title": "7월 4일 김재현 vs 박형훈 , 한국타이틀매치 (경기 안산)",
+      "url": "http://www.kbaboxing.co.kr/schedule/40876",
+      "date": "2026.05.08",
+      "notice": false
+    },
+    {
+      "title": "5월 16일 관장협의회 주최 , 제6회 신인 정기전 (경기 시흥)",
+      "url": "http://www.kbaboxing.co.kr/schedule/39993",
+      "date": "2026.05.08",
+      "notice": false
+    },
+    {
+      "title": "[연기 및 변경] 6월 6일 프로복싱 랭킹전 (수도권)",
+      "url": "http://www.kbaboxing.co.kr/schedule/39994",
+      "date": "2026.03.16",
+      "notice": false
+    },
+    {
+      "title": "4월 26일 제12회 대산프로모션 신인 KO퍼레이드 (대구)",
+      "url": "http://www.kbaboxing.co.kr/schedule/33062",
+      "date": "2026.03.16",
+      "notice": false
+    }
+  ],
+  "results": [
+    {
+      "title": "7월 4일 김재현 vs 박형훈 , 한국타이틀매치 (경기 안산)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/43217",
+      "date": "2026.07.08",
+      "notice": false
+    },
+    {
+      "title": "5월 16일 관장협의회 주최 , 제6회 신인 정기전 (경기 시흥)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/41699",
+      "date": "2026.05.18",
+      "notice": false
+    },
+    {
+      "title": "4월 26일 제12회 대산프로모션 신인 KO퍼레이드 (대구)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/41587",
+      "date": "2026.04.28",
+      "notice": false
+    },
+    {
+      "title": "4월 25일 스타골든글러브 033 - WBF 아시아퍼시픽 타이틀전 (경기 포천)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/41584",
+      "date": "2026.04.27",
+      "notice": false
+    },
+    {
+      "title": "4월 4일 WBF 아시아퍼시픽 실버 미들급 챔피언전 (경남 양산)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/41359",
+      "date": "2026.04.06",
+      "notice": false
+    },
+    {
+      "title": "3월 29일 강철 vs 김재현 , WBF 아시아퍼시픽 챔피언전 (충남 청양)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/40855",
+      "date": "2026.03.30",
+      "notice": false
+    },
+    {
+      "title": "3월 28일 제12회 프로복싱 국가대항전 (충남 청양)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/40853",
+      "date": "2026.03.30",
+      "notice": false
+    },
+    {
+      "title": "3월 15일 팀 위너 프로모션 주최 , 위너 루키 대항전 (경기 안산)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/39990",
+      "date": "2026.03.17",
+      "notice": false
+    },
+    {
+      "title": "3월 1일 이우민 국제 랭킹전 / 김재민 vs 금광산 WBF 아시아퍼시픽 챔피언전 (전남 영광)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/39025",
+      "date": "2026.03.03",
+      "notice": false
+    },
+    {
+      "title": "2월 28일 노형우 vs 이바딤 , WBF 아시아퍼시픽 실버 초대 챔피언전 (울산)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/39020",
+      "date": "2026.03.03",
+      "notice": false
+    },
+    {
+      "title": "1월 31일 한국타이틀전초전 - 스타골든글러브 032 (경기 동두천)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/37614",
+      "date": "2026.02.02",
+      "notice": false
+    },
+    {
+      "title": "26년 1월 24일 프로권투 시상식 권투인의 밤 - 제5회 신인 정기전 및 국제전 시범경기",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/37570",
+      "date": "2026.01.26",
+      "notice": false
+    }
+  ],
+  "protest": [
+    {
+      "title": "[7월 18일 대구] 대구지회 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/43648",
+      "date": "2026.07.20",
+      "notice": false
+    },
+    {
+      "title": "[7월 11일 경기 양주] 제98회 프로테스트 | 제88회 신인 선수 발굴대회",
+      "url": "http://www.kbaboxing.co.kr/Information/43618",
+      "date": "2026.07.12",
+      "notice": false
+    },
+    {
+      "title": "[7월 11일 경기 시흥] 경기남부지회 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/43614",
+      "date": "2026.07.12",
+      "notice": false
+    },
+    {
+      "title": "[7월 4일 경기 안산] 시합장 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/43613",
+      "date": "2026.07.12",
+      "notice": false
+    },
+    {
+      "title": "[5월 30일 광주] 제97회 프로테스트 | 제87회 신인 선수 발굴대회",
+      "url": "http://www.kbaboxing.co.kr/Information/43053",
+      "date": "2026.05.30",
+      "notice": false
+    },
+    {
+      "title": "[5월 29일 경기 안성] 제96회 프로테스트 | 제86회 신인 선수 발굴대회",
+      "url": "http://www.kbaboxing.co.kr/Information/43052",
+      "date": "2026.05.30",
+      "notice": false
+    },
+    {
+      "title": "[5월 16일 시흥] 제95회 프로테스트 | 제85회 신인 선수 발굴대회",
+      "url": "http://www.kbaboxing.co.kr/Information/41697",
+      "date": "2026.05.18",
+      "notice": false
+    },
+    {
+      "title": "[4월 30일 관악] 서울 상설 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/41607",
+      "date": "2026.05.06",
+      "notice": false
+    },
+    {
+      "title": "[3월 29일 충남 청양] 제93회 프로테스트 | 제83회 신인 선수 발굴대회",
+      "url": "http://www.kbaboxing.co.kr/Information/41360",
+      "date": "2026.04.06",
+      "notice": false
+    },
+    {
+      "title": "[3월 15일 안산] 시합장 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/39997",
+      "date": "2026.03.18",
+      "notice": false
+    },
+    {
+      "title": "[3월 7일 대구] 대구지회 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/39047",
+      "date": "2026.03.09",
+      "notice": false
+    },
+    {
+      "title": "[3월 5일 경기 여주] 경기 상설 프로테스트",
+      "url": "http://www.kbaboxing.co.kr/Information/39039",
+      "date": "2026.03.06",
+      "notice": false
+    }
+  ],
+  "ranking": [
+    {
+      "title": "2026년 7월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/43754",
+      "date": "2026.08.04",
+      "notice": false
+    },
+    {
+      "title": "2026년 6월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/43235",
+      "date": "2026.07.10",
+      "notice": false
+    },
+    {
+      "title": "2026년 5월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/43110",
+      "date": "2026.06.10",
+      "notice": false
+    },
+    {
+      "title": "2026년 4월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/41629",
+      "date": "2026.05.06",
+      "notice": false
+    },
+    {
+      "title": "2026년 3월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/41362",
+      "date": "2026.04.06",
+      "notice": false
+    },
+    {
+      "title": "2026년 2월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/39048",
+      "date": "2026.03.09",
+      "notice": false
+    },
+    {
+      "title": "2026년 1월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/37664",
+      "date": "2026.02.05",
+      "notice": false
+    },
+    {
+      "title": "2025년 12월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/36914",
+      "date": "2026.01.05",
+      "notice": false
+    },
+    {
+      "title": "2025년 11월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/36737",
+      "date": "2025.12.11",
+      "notice": false
+    },
+    {
+      "title": "2025년 10월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/36058",
+      "date": "2025.11.07",
+      "notice": false
+    },
+    {
+      "title": "2025년 9월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/35516",
+      "date": "2025.09.25",
+      "notice": false
+    },
+    {
+      "title": "2025년 8월 랭킹표",
+      "url": "http://www.kbaboxing.co.kr/status_ranking/34736",
+      "date": "2025.09.11",
+      "notice": false
+    }
+  ],
+  "video": [
+    {
+      "title": "연타에 가랑비 젖듯이 쉴 새 없이 몰아치는 펀치! | 라이트급 신인 랭킹전(4R) 김효성 vs 허은성 20260124",
+      "url": "http://www.kbaboxing.co.kr/video/41377",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "내가 링 위의 피바다다! | 밴텀급 신인 랭킹전(4R) 백경민 vs 강민철 20260124",
+      "url": "http://www.kbaboxing.co.kr/video/41375",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "대응법 없는 바디 공격 | 슈퍼웰터급 신인 랭킹전(4R) 윤석훈 vs 안드레이 20260124",
+      "url": "http://www.kbaboxing.co.kr/video/41373",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "데뷔전에 장신의 사우스포를 만난 선수 | 밴텀급 신인 랭킹전(4R) 김재호 vs 손현서 20260124",
+      "url": "http://www.kbaboxing.co.kr/video/41371",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "호쾌한 주먹과 3연속 어퍼컷에 이은 경기 승리까지 | 밴텀급 신인 랭킹전(4R) 송부용 vs 이종선 20260124",
+      "url": "http://www.kbaboxing.co.kr/video/41369",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "2025 프로복싱 올해의 경기 TOP5 하이라이트",
+      "url": "http://www.kbaboxing.co.kr/video/41367",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "2025년 프로복싱 다운모음",
+      "url": "http://www.kbaboxing.co.kr/video/41364",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "호쾌한 연타 폭격! 바디 공략으로 KO 완성한 뉴 챔피언 탄생 | WBF 아시아퍼시픽 라이트급 챔피언 결정전(10R) 강경훈 vs 피네티 비사누 20251220",
+      "url": "http://www.kbaboxing.co.kr/video/37601",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "화려함보단 정확함! 경량급 정석 플레이로 상대 쓰러트린 모범생 | 밴텀급 국내 랭킹전(6R) 김지용 vs 황준호 20251220",
+      "url": "http://www.kbaboxing.co.kr/video/37599",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "중량급 루키들의 거친 난타전.. 한방 한방이 KO급 파괴력 | 슈퍼미들급 신인 랭킹전(4R) 노형우 vs 문기원 20251220",
+      "url": "http://www.kbaboxing.co.kr/video/37597",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "누가 이겨도 이상하지 않다! 어린 신예들의 자웅 못 가리는 명승부 | 슈퍼밴텀급 신인 랭킹전(4R) 김민석 vs 윤다휘 20251220",
+      "url": "http://www.kbaboxing.co.kr/video/37595",
+      "date": "",
+      "notice": false
+    },
+    {
+      "title": "데뷔전부터 이 정도? 어린 선수의 놀라운 기본기에 모두 경악 | 웰터급 신인 랭킹전(4R) 남강현 vs 최민석 20251220",
+      "url": "http://www.kbaboxing.co.kr/video/37593",
+      "date": "",
+      "notice": false
+    }
+  ],
+  "errors": []
+}
