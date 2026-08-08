@@ -23,13 +23,24 @@ python 전남권투협회.py
 python tools/sync_kba.py
 ```
 
-## 배포 (GitHub Pages)
+## 배포
+
+### Vercel (권장 · 짧은 주소)
+
+- **공개 주소**: https://kbajeonnam.vercel.app/
+- 프로젝트: `website/` 정적 사이트
+
+다시 배포:
+
+```bash
+npx vercel deploy website --prod --yes
+```
+
+### GitHub Pages (백업)
 
 - **공개 주소**: https://akkop78-sys.github.io/kbajeonnam/
 - **저장소**: https://github.com/akkop78-sys/kbajeonnam
 - `website/` 내용이 `gh-pages` 브랜치로 배포됩니다.
-
-사이트 내용 수정 후 다시 배포:
 
 ```bash
 python tools/sync_kba.py
