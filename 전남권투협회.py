@@ -58,24 +58,31 @@ def main():
     if not ROOT.is_dir():
         raise SystemExit("website 폴더가 없습니다: {0}".format(ROOT))
 
-    print("(사)한국권투협회 전남지회 미리보기")
-    print("중앙회 사이트: http://www.kbaboxing.co.kr/")
-    sync_kba(quiet=False)
-    start_sync_loop()
+    print("(사)한국권투협회 전남지회 미리보기", flush=True)
+    print("중앙회 사이트: http://www.kbaboxing.co.kr/", flush=True)
 
+    # 서버를 먼저 띄운 뒤 동기화(네트워크 지연으로 미리보기가 막히지 않게)
     socketserver.TCPServer.allow_reuse_address = True
-    with socketserver.TCPServer((HOST, PORT), QuietHandler) as httpd:
-        url = "http://{0}:{1}/".format(HOST, PORT)
-        print("열기:", url)
-        print("종료: Ctrl+C (백그라운드에서 {0}분마다 자동 갱신)".format(SYNC_INTERVAL_SEC // 60))
-        try:
-            webbrowser.open(url)
-        except Exception:
-            pass
-        try:
-            httpd.serve_forever()
-        except KeyboardInterrupt:
-            print("\n서버를 종료합니다.")
+    httpd = socketserver.TCPServer((HOST, PORT), QuietHandler)
+    url = "http://{0}:{1}/".format(HOST, PORT)
+    print("열기:", url, flush=True)
+    print("종료: Ctrl+C (백그라운드에서 {0}분마다 자동 갱신)".format(SYNC_INTERVAL_SEC // 60), flush=True)
+
+    def boot():
+        sync_kba(quiet=False)
+        start_sync_loop()
+
+    threading.Thread(target=boot, daemon=True).start()
+    try:
+        webbrowser.open(url)
+    except Exception:
+        pass
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\n서버를 종료합니다.", flush=True)
+    finally:
+        httpd.server_close()
 
 
 if __name__ == "__main__":
