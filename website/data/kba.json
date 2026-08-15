@@ -1,6 +1,6 @@
 {
   "source": "http://www.kbaboxing.co.kr",
-  "updated_at": "2026-08-08T20:03:40+09:00",
+  "updated_at": "2026-08-16T06:07:10+09:00",
   "hq": {
     "name": "사단법인 한국권투협회",
     "address": "서울특별시 관악구 남부순환로 1361 3층 (신림동)",
@@ -93,7 +93,7 @@
   ],
   "schedule": [
     {
-      "title": "상대 미정 명단 (8월 6일 기준)",
+      "title": "상대 미정 명단 (8월 15일 기준)",
       "url": "http://www.kbaboxing.co.kr/schedule/24357",
       "date": "2026.08.04",
       "notice": true
@@ -153,7 +153,7 @@
       "notice": false
     },
     {
-      "title": "[연기 및 변경] 6월 6일 프로복싱 랭킹전 (수도권)",
+      "title": "10월 3일 MK프로모션 주최 , 프로복싱 국제 랭킹전 (경남 양산)",
       "url": "http://www.kbaboxing.co.kr/schedule/39994",
       "date": "2026.03.16",
       "notice": false
@@ -166,6 +166,12 @@
     }
   ],
   "results": [
+    {
+      "title": "8월 8일 경기남부지회 주최 , 프로복싱 랭킹전 (경기 평택)",
+      "url": "http://www.kbaboxing.co.kr/board_ROOX28/43808",
+      "date": "2026.08.09",
+      "notice": false
+    },
     {
       "title": "7월 4일 김재현 vs 박형훈 , 한국타이틀매치 (경기 안산)",
       "url": "http://www.kbaboxing.co.kr/board_ROOX28/43217",
@@ -230,12 +236,6 @@
       "title": "1월 31일 한국타이틀전초전 - 스타골든글러브 032 (경기 동두천)",
       "url": "http://www.kbaboxing.co.kr/board_ROOX28/37614",
       "date": "2026.02.02",
-      "notice": false
-    },
-    {
-      "title": "26년 1월 24일 프로권투 시상식 권투인의 밤 - 제5회 신인 정기전 및 국제전 시범경기",
-      "url": "http://www.kbaboxing.co.kr/board_ROOX28/37570",
-      "date": "2026.01.26",
       "notice": false
     }
   ],

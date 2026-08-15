@@ -5,3 +5,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.log
+tools/realesrgan/weights/
+tools/realesrgan/*.zip
+gfpgan/
+website/images/_esrgan_work/
+website/images/_peak_raw/

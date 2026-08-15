@@ -17,6 +17,14 @@ class QuietHandler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
+    def end_headers(self):
+        # HTML·JS·CSS·JSON은 개발 중 항상 최신 파일 제공
+        path = self.path.split("?", 1)[0].lower()
+        if path.endswith((".html", ".htm", ".js", ".css", ".json")) or path in ("", "/"):
+            self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
+            self.send_header("Pragma", "no-cache")
+        super().end_headers()
+
     def log_message(self, format, *args):
         print("[{0}] {1}".format(self.log_date_time_string(), args[0]))
 

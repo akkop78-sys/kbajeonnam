@@ -2,9 +2,21 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>(사)한국권투협회 전남지회 | 전남권투협회</title>
-  <meta name="description" content="사단법인 한국권투협회 전남지회(전남권투협회). 여수·전남 권투의 전통과 새로운 도약." />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0c2340" />
+  <title>전남권투협회 | (사)한국권투협회 전남지회</title>
+  <meta name="description" content="사단법인 한국권투협회 전남지회(전남권투협회). 여수·전남 권투의 전통과 새로운 도약. 회장 이현만." />
+  <meta name="keywords" content="전남권투협회, 한국권투협회 전남지회, 여수권투, 전남복싱, 이현만" />
+  <meta name="robots" content="index,follow" />
+  <meta name="naver-site-verification" content="318da6bcfee29d5bbc81be90875af8863445cfe0" />
+
+  <link rel="canonical" href="https://kbajeonnam.vercel.app/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="전남권투협회 | (사)한국권투협회 전남지회" />
+  <meta property="og:description" content="사단법인 한국권투협회 전남지회. 여수·전남 권투의 전통과 새로운 도약." />
+  <meta property="og:url" content="https://kbajeonnam.vercel.app/" />
+  <meta property="og:locale" content="ko_KR" />
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
@@ -36,16 +48,31 @@
   <main>
     <section class="hero">
       <div class="hero-cubes" aria-hidden="true"></div>
-      <div class="container hero-content">
-        <h1 class="hero-brand">
-          <small>INAUGURATION 2026. 4. 23.</small>
-          전남권투협회
-        </h1>
-        <p class="hero-lead">여수·전남, 권투의 성지에서 다시 세계로. 선수 육성 · 생활체육 · 공정한 협회 운영.</p>
-        <div class="hero-cta">
-          <a class="btn btn-primary" href="pages/about.html">회장 취임사</a>
-          <a class="btn btn-ghost" href="pages/history.html">권투 역사·챔피언</a>
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1 class="hero-brand">
+            <small data-leadership="since">INAUGURATION 2026. 4. 23.</small>
+            전남권투협회
+          </h1>
+          <p class="hero-lead">여수·전남, 권투의 성지에서 다시 세계로. 선수 육성 · 생활체육 · 공정한 협회 운영.</p>
+          <div class="hero-cta">
+            <a class="btn btn-primary" data-leadership="greeting-url" href="pages/about.html">회장 취임사</a>
+            <a class="btn btn-ghost" href="pages/history.html">권투 역사·챔피언</a>
+          </div>
         </div>
+        <aside class="hero-aside">
+          <div class="hero-inauguration" data-inauguration="hero-video" aria-label="발대식 요약 영상"></div>
+          <div class="hero-president" data-leadership="hero" aria-label="회장">
+            <figure class="hero-president-card">
+              <img src="images/portraits/lee-hyunman-hero.jpg" alt="이현만 회장" width="320" height="320" fetchpriority="high" decoding="async" />
+              <figcaption>
+                <span class="hero-president-name">이현만</span>
+                <span class="hero-president-role">회장</span>
+              </figcaption>
+              <a class="hero-president-link" href="pages/about.html">취임사 보기 →</a>
+            </figure>
+          </div>
+        </aside>
       </div>
     </section>
 
@@ -97,50 +124,42 @@
       </div>
     </section>
 
-    <section class="section" style="padding-top:0">
+    <section class="section section--tight">
       <div class="container reveal">
         <div class="section-head">
-          <p class="section-kicker">PEOPLE</p>
-          <h2 class="section-title">전남지회를 이끄는 얼굴</h2>
-          <p class="section-desc">발대식 책자 인물 사진을 보정해 담았습니다.</p>
+          <p class="section-kicker">LEADERSHIP</p>
+          <h2 class="section-title">임원진</h2>
+          <p class="section-desc">발대식 기준 조직 · 사진이 있는 임원은 초상을 표시합니다.</p>
         </div>
-        <div class="people-strip">
-          <figure>
-            <img src="images/portraits/lee-hyunman-hero.jpg" alt="이현만 회장" width="400" height="400" />
-            <figcaption>이현만 회장</figcaption>
-          </figure>
-          <figure>
-            <img src="images/portraits/bang-ho-nam.jpg" alt="방호남" width="400" height="400" />
-            <figcaption>방호남</figcaption>
-          </figure>
-          <figure>
-            <img src="images/portraits/kim-ki-soo.jpg" alt="김기수" width="400" height="400" />
-            <figcaption>김기수</figcaption>
-          </figure>
-          <figure>
-            <img src="images/portraits/yoo-je-du.jpg" alt="유제두" width="400" height="400" />
-            <figcaption>유제두</figcaption>
-          </figure>
-          <figure>
-            <img src="images/portraits/hong-soo-hwan.jpg" alt="홍수환" width="400" height="400" />
-            <figcaption>홍수환</figcaption>
-          </figure>
-          <figure>
-            <img src="images/portraits/jang-jung-koo.jpg" alt="장정구" width="400" height="400" />
-            <figcaption>장정구</figcaption>
-          </figure>
-        </div>
+        <div class="staff-preview" data-org="preview"></div>
+        <p class="text-center" style="margin-top:1.25rem">
+          <a class="btn btn-dark" href="pages/organization.html">전체 조직도 보기</a>
+        </p>
       </div>
     </section>
 
-    <section class="section" style="padding-top:0">
+    <section class="section section--tight">
       <div class="container reveal">
         <div class="section-head">
-          <p class="section-kicker">LEGENDS</p>
-          <h2 class="section-title">전통과 자부심</h2>
+          <p class="section-kicker">발대식</p>
+          <h2 class="section-title">2026. 4. 23. 발대식·취임식</h2>
+          <p class="section-desc" data-inauguration="count">현장 사진</p>
+        </div>
+        <div class="photo-wall inauguration-wall" data-inauguration="wall"></div>
+        <p class="text-center" style="margin-top:1.25rem">
+          <a class="btn btn-dark" href="pages/gallery.html">발대식 갤러리 전체 보기</a>
+        </p>
+      </div>
+    </section>
+
+    <section class="section section--tight">
+      <div class="container reveal">
+        <div class="section-head">
+          <p class="section-kicker">HALL OF FAME</p>
+          <h2 class="section-title">명예의 전당</h2>
           <p class="section-desc">대한민국 프로복싱 세계챔피언의 발자취, 그리고 여수·전남의 이름.</p>
         </div>
-        <div class="champion-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="champion-grid champion-grid--3">
           <article class="champion-card">
             <img src="images/portraits/kim-ki-soo.jpg" alt="김기수" width="420" height="420" />
             <div class="card-body">
@@ -150,48 +169,23 @@
             </div>
           </article>
           <article class="champion-card">
-            <img src="images/portraits/yoo-je-du.jpg" alt="유제두" width="420" height="420" />
+            <img src="images/portraits/hong-soo-hwan.jpg" alt="홍수환" width="420" height="420" />
             <div class="card-body">
-              <h3>유제두</h3>
-              <p class="sub">1975 WBA · 고흥 출생 · 여수북싱체육관</p>
-              <p>전남이 낳은 세계챔피언</p>
+              <h3>홍수환</h3>
+              <p class="sub">1974 WBA 밴텀급 · 4전5기</p>
+              <p>원정 타이틀 · 한국 최초 2체급 챔피언</p>
             </div>
           </article>
           <article class="champion-card">
-            <img src="images/portraits/jang-jung-koo.jpg" alt="장정구" width="420" height="420" />
+            <img src="images/portraits/yum-dong-kyun.jpg" alt="염동균" width="420" height="420" />
             <div class="card-body">
-              <h3>1980년대 황금기</h3>
-              <p class="sub">장정구 · 유명우 · 박종팔 · 문성길</p>
-              <p>국민 스포츠로 사랑받은 권투의 전성기</p>
+              <h3>염동균</h3>
+              <p class="sub">1976 WBC 슈퍼밴텀급</p>
+              <p>한국 최초 WBC 세계챔피언</p>
             </div>
           </article>
         </div>
-        <p style="margin-top:1.25rem"><a href="pages/history.html">역사·챔피언 전체 보기 →</a></p>
-      </div>
-    </section>
-
-    <section class="section" style="padding-top:0">
-      <div class="container reveal">
-        <div class="section-head">
-          <p class="section-kicker">GALLERY</p>
-          <h2 class="section-title">인물 포토</h2>
-          <p class="section-desc">책자에서 골라 보정한 초상·기록 사진.</p>
-        </div>
-        <div class="photo-wall">
-          <img src="images/portraits/lee-hyunman-hero.jpg" alt="이현만 회장" width="380" height="380" />
-          <img src="images/portraits/bang-ho-nam.jpg" alt="방호남" width="380" height="380" />
-          <img src="images/portraits/kim-ki-soo.jpg" alt="김기수" width="380" height="380" />
-          <img src="images/portraits/hong-soo-hwan.jpg" alt="홍수환" width="380" height="380" />
-          <img src="images/portraits/yoo-je-du.jpg" alt="유제두" width="380" height="380" />
-          <img src="images/portraits/park-chan-hee.jpg" alt="박찬희" width="380" height="380" />
-          <img src="images/portraits/jang-jung-koo.jpg" alt="장정구" width="380" height="380" />
-          <img src="images/portraits/yuh-myung-woo.jpg" alt="유명우" width="380" height="380" />
-          <img src="images/portraits/park-jong-pal.jpg" alt="박종팔" width="380" height="380" />
-          <img src="images/portraits/moon-sung-kil.jpg" alt="문성길" width="380" height="380" />
-          <img src="images/portraits/choi-yong-soo.jpg" alt="최용수" width="380" height="380" />
-          <img src="images/portraits/action-vintage.jpg" alt="권투 경기 장면" width="380" height="380" />
-        </div>
-        <p style="margin-top:1.25rem"><a href="pages/gallery.html">갤러리 더 보기 →</a></p>
+        <p style="margin-top:1.25rem"><a href="pages/history.html">명예의 전당 전체 보기 →</a></p>
       </div>
     </section>
   </main>
@@ -215,6 +209,9 @@
     </div>
   </footer>
   <script src="js/main.js"></script>
+  <script src="js/leadership.js"></script>
+  <script src="js/organization.js"></script>
+  <script src="js/inauguration-gallery.js"></script>
   <script src="js/kba-feed.js"></script>
 </body>
 </html>

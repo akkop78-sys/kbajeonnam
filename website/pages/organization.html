@@ -2,7 +2,8 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#0c2340" />
   <title>조직도 | 전남권투협회</title>
   <link rel="stylesheet" href="../css/style.css" />
 </head>
@@ -35,121 +36,54 @@
   <section class="page-hero">
     <div class="container">
       <h1>조직도</h1>
-      <p>(사)한국권투협회 전남지회 · 발대식 기준</p>
+      <p>(사)한국권투협회 전남지회 · 발대식 기준 · 사진 있는 임원은 초상 표시</p>
     </div>
   </section>
 
   <main class="section">
     <div class="container">
-      <div class="org-chart reveal">
+      <div class="org-chart reveal" data-org="chart">
         <div class="org-level">
           <div class="org-box is-top">
             <span class="role">회장</span>
-            <span class="who">이현만</span>
-          </div>
-        </div>
-
-        <div class="org-level">
-          <div class="org-box accent">
-            <span class="role">여성회장</span>
-            <span class="who">정행자</span>
-          </div>
-          <div class="org-box">
-            <span class="role">명예회장</span>
-            <span class="who">황석호 · 신경식</span>
-          </div>
-          <div class="org-box">
-            <span class="role">감사</span>
-            <span class="who">김병완 · 곽현만</span>
-          </div>
-        </div>
-
-        <div class="org-level">
-          <div class="org-box accent" style="min-width:220px">
-            <span class="role">전무이사</span>
-            <span class="who">최정원</span>
-          </div>
-          <div class="org-box" style="min-width:220px">
-            <span class="role">사무국</span>
-            <span class="who">국장 김경석 · 차장 김동욱</span>
+            <div class="org-people">
+              <div class="org-person">
+                <img class="org-president-photo" src="../images/portraits/lee-hyunman-hero.jpg" alt="이현만" width="120" height="150" />
+                <span class="who">이현만</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="reveal" style="margin-top:2.5rem">
+      <div class="reveal stack-lg">
         <div class="section-head">
           <p class="section-kicker">BOARD</p>
           <h2 class="section-title">부회장</h2>
         </div>
-        <div class="name-list">
-          <span>이근호</span><span>박춘화</span><span>정복윤</span><span>김형철</span><span>박한조</span><span>정정안</span><span>박중수</span><span>박상성</span><span>천성훈</span><span>진동인</span><span>정종채</span><span>이남철</span><span>배진호</span><span>박영민</span><span>김정환</span><span>강형택</span><span>고병용</span><span>공성서</span>
-        </div>
+        <div class="person-grid" data-org="vice-presidents"></div>
       </div>
 
-      <div class="reveal" style="margin-top:2.5rem">
+      <div class="reveal stack-lg">
         <div class="section-head">
           <p class="section-kicker">DIRECTORS</p>
           <h2 class="section-title">이사 · 분장</h2>
         </div>
-        <div class="dept-grid">
-          <div class="dept-card">
-            <h4>심판이사</h4>
-            <ul><li>박성근</li><li>이재준</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>기획이사</h4>
-            <ul><li>김효민</li><li>김혁규</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>의전이사</h4>
-            <ul><li>김철수</li><li>정일호</li><li>박민우</li><li>박대현</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>대회이사</h4>
-            <ul><li>변교선</li><li>이은혜</li><li>채승균</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>총무이사</h4>
-            <ul><li>김유진</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>조직이사</h4>
-            <ul><li>김형남</li><li>박종일</li><li>정범준</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>홍보이사</h4>
-            <ul><li>김호중</li><li>박재형</li><li>신대식</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>경기이사</h4>
-            <ul><li>김호준</li><li>이희연</li><li>김수지</li><li>박종남</li></ul>
-          </div>
-          <div class="dept-card">
-            <h4>여성이사</h4>
-            <ul>
-              <li>홍선희</li><li>이하윤</li><li>강미진</li><li>정미나</li>
-              <li>정영애</li><li>이은진</li><li>강순덕</li><li>정진이</li>
-            </ul>
-          </div>
-        </div>
+        <div class="dept-grid" data-org="directors"></div>
       </div>
 
-      <div class="reveal" style="margin-top:2.5rem">
+      <div class="reveal stack-lg">
         <div class="section-head">
           <p class="section-kicker">ADVISORS</p>
           <h2 class="section-title">고문 · 자문</h2>
         </div>
         <div class="org-block">
           <h3>고문위원</h3>
-          <div class="name-list">
-            <span>정윤표</span><span>김정민</span><span>김양기</span><span>박규관</span><span>김순빈</span><span>김영배</span><span>박평수</span><span>조응규</span><span>고중안</span><span>김상배</span><span>지말오</span><span>박종팔</span><span>문성길</span>
-          </div>
+          <div class="person-grid" data-org="honorary-gomun"></div>
         </div>
         <div class="org-block">
           <h3>자문위원</h3>
-          <div class="name-list">
-            <span>김봉식</span><span>박승영</span><span>신양우</span><span>김정현</span><span>김종훈</span><span>서철</span><span>정준호</span><span>김동식</span><span>이형태</span><span>이천섭</span><span>정순균</span><span>정정식</span><span>유남기</span><span>강강식</span><span>강경진</span><span>허봉균</span><span>김선주</span><span>기문중</span><span>김문복</span><span>이대길</span><span>최종배</span><span>신현재</span><span>박휘우</span><span>김민석</span><span>정광조</span><span>최병일</span><span>이승주</span><span>김현철</span><span>김창길</span><span>임규성</span>
-          </div>
+          <div class="person-grid" data-org="honorary-jamun"></div>
         </div>
       </div>
 
@@ -166,5 +100,6 @@
     <div class="container"><p class="copyright">© 2026 (사)한국권투협회 전남지회</p></div>
   </footer>
   <script src="../js/main.js"></script>
+  <script src="../js/organization.js"></script>
 </body>
 </html>
