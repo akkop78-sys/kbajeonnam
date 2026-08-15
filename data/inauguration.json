@@ -1,0 +1,324 @@
+{
+  "title": "발대식 및 취임식",
+  "date": "2026-04-23",
+  "sourceFolder": "캡쳐/발대식",
+  "videos": [
+    {
+      "file": "media/inauguration/inauguration-summary.mp4",
+      "title": "발대식 요약 영상",
+      "featured": true,
+      "source": "발대식 요약본동영상.mp4",
+      "sizeMb": 52.1
+    },
+    {
+      "file": "media/inauguration/inauguration-full.mp4",
+      "title": "발대식 전체 기록",
+      "featured": false,
+      "source": "2026_08_16 00_40.mp4",
+      "sizeMb": 84.9
+    },
+    {
+      "file": "media/inauguration/lee-hyunman-activity.mp4",
+      "title": "이현만 회장 활동",
+      "featured": false,
+      "source": "이현만 활동.mp4",
+      "sizeMb": 14.6
+    }
+  ],
+  "photos": [
+    {
+      "file": "images/inauguration/001.jpg",
+      "title": "발대식 01",
+      "source": "캡처_20260816_004139_001.jpg",
+      "width": 1400,
+      "height": 788
+    },
+    {
+      "file": "images/inauguration/002.jpg",
+      "title": "발대식 02",
+      "source": "캡처_20260816_004139_002.jpg",
+      "width": 1400,
+      "height": 788
+    },
+    {
+      "file": "images/inauguration/003.jpg",
+      "title": "발대식 03",
+      "source": "캡처_20260816_004139_003.jpg",
+      "width": 1400,
+      "height": 788
+    },
+    {
+      "file": "images/inauguration/004.jpg",
+      "title": "발대식 04",
+      "source": "캡처_20260816_004139_004.jpg",
+      "width": 1400,
+      "height": 788
+    },
+    {
+      "file": "images/inauguration/005.jpg",
+      "title": "발대식 05",
+      "source": "캡처_20260816_004140_005.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/006.jpg",
+      "title": "발대식 06",
+      "source": "캡처_20260816_004140_006.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/007.jpg",
+      "title": "발대식 07",
+      "source": "캡처_20260816_004140_007.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/008.jpg",
+      "title": "발대식 08",
+      "source": "캡처_20260816_004140_008.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/009.jpg",
+      "title": "발대식 09",
+      "source": "캡처_20260816_004140_009.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/010.jpg",
+      "title": "발대식 10",
+      "source": "캡처_20260816_004140_010.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/011.jpg",
+      "title": "발대식 11",
+      "source": "캡처_20260816_004140_011.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/012.jpg",
+      "title": "발대식 12",
+      "source": "캡처_20260816_004140_012.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/013.jpg",
+      "title": "발대식 13",
+      "source": "캡처_20260816_004140_013.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/014.jpg",
+      "title": "발대식 14",
+      "source": "캡처_20260816_004140_014.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/015.jpg",
+      "title": "발대식 15",
+      "source": "캡처_20260816_004140_015.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/016.jpg",
+      "title": "발대식 16",
+      "source": "캡처_20260816_004140_016.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/017.jpg",
+      "title": "발대식 17",
+      "source": "캡처_20260816_004140_017.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/018.jpg",
+      "title": "발대식 18",
+      "source": "캡처_20260816_004140_018.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/019.jpg",
+      "title": "발대식 19",
+      "source": "캡처_20260816_004140_019.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/020.jpg",
+      "title": "발대식 20",
+      "source": "캡처_20260816_004141_020.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/021.jpg",
+      "title": "발대식 21",
+      "source": "캡처_20260816_004141_021.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/022.jpg",
+      "title": "발대식 22",
+      "source": "캡처_20260816_004141_022.jpg",
+      "width": 1400,
+      "height": 2488
+    },
+    {
+      "file": "images/inauguration/023.jpg",
+      "title": "발대식 23",
+      "source": "캡처_20260816_004141_023.jpg",
+      "width": 1400,
+      "height": 2488
+    },
+    {
+      "file": "images/inauguration/024.jpg",
+      "title": "발대식 24",
+      "source": "캡처_20260816_004231_024.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/025.jpg",
+      "title": "발대식 25",
+      "source": "캡처_20260816_004231_025.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/026.jpg",
+      "title": "발대식 26",
+      "source": "캡처_20260816_004232_026.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/027.jpg",
+      "title": "발대식 27",
+      "source": "캡처_20260816_004232_027.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/028.jpg",
+      "title": "발대식 28",
+      "source": "캡처_20260816_004232_028.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/029.jpg",
+      "title": "발대식 29",
+      "source": "캡처_20260816_004232_029.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/030.jpg",
+      "title": "발대식 30",
+      "source": "캡처_20260816_004232_030.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/031.jpg",
+      "title": "발대식 31",
+      "source": "캡처_20260816_004232_031.jpg",
+      "width": 1400,
+      "height": 787
+    },
+    {
+      "file": "images/inauguration/032.jpg",
+      "title": "발대식 32",
+      "source": "캡처_20260816_004232_032.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/033.jpg",
+      "title": "발대식 33",
+      "source": "캡처_20260816_004232_033.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/034.jpg",
+      "title": "발대식 34",
+      "source": "캡처_20260816_004233_034.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/035.jpg",
+      "title": "발대식 35",
+      "source": "캡처_20260816_004233_035.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/036.jpg",
+      "title": "발대식 36",
+      "source": "캡처_20260816_004233_036.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/037.jpg",
+      "title": "발대식 37",
+      "source": "캡처_20260816_004402_037.png",
+      "width": 1138,
+      "height": 175
+    },
+    {
+      "file": "images/inauguration/038.jpg",
+      "title": "발대식 38",
+      "source": "캡처_20260816_004403_038.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/039.jpg",
+      "title": "발대식 39",
+      "source": "캡처_20260816_004403_039.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/040.jpg",
+      "title": "발대식 40",
+      "source": "캡처_20260816_004403_040.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/041.jpg",
+      "title": "발대식 41",
+      "source": "캡처_20260816_004403_041.jpg",
+      "width": 1400,
+      "height": 1050
+    },
+    {
+      "file": "images/inauguration/042.jpg",
+      "title": "발대식 42",
+      "source": "캡처_20260816_004846_042.jpg",
+      "width": 1400,
+      "height": 1050
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "president": {
+    "name": "이현만",
+    "title": "회장",
+    "photo": "images/portraits/lee-hyunman-hero.jpg",
+    "since": "2026-04-23",
+    "sinceLabel": "INAUGURATION 2026. 4. 23.",
+    "greetingUrl": "pages/about.html"
+  },
+  "photoAliases": {
+    "황석호": "왕석호"
+  },
+  "photos": {
+    "강강식": "images/portraits/staff/kang-gang-sik.jpg",
+    "고병용": "images/portraits/staff/ko-byeong-yong.jpg",
+    "공성식": "images/portraits/staff/gong-seong-sik.jpg",
+    "곽현만": "images/portraits/staff/kwak-hyeon-man.jpg",
+    "김경석": "images/portraits/staff/kim-gyeong-seok.jpg",
+    "김민석": "images/portraits/staff/kim-min-seok.jpg",
+    "김병완": "images/portraits/staff/kim-byeong-wan.jpg",
+    "김봉식": "images/portraits/staff/kim-bong-sik.jpg",
+    "김유진": "images/portraits/staff/kim-yu-jin.jpg",
+    "김정민": "images/portraits/staff/kim-jeong-min.jpg",
+    "김철수": "images/portraits/staff/kim-cheol-su.jpg",
+    "김호종": "images/portraits/staff/kim-ho-jong.jpg",
+    "김효민": "images/portraits/staff/kim-hyo-min.jpg",
+    "문성길": "images/portraits/staff/moon-sung-kil-staff.jpg",
+    "박대현": "images/portraits/staff/park-dae-hyeon.jpg",
+    "박민우": "images/portraits/staff/park-min-u.jpg",
+    "박재형": "images/portraits/staff/park-jae-hyeong.jpg",
+    "박종팔": "images/portraits/staff/park-jong-pal-staff.jpg",
+    "박준화": "images/portraits/staff/park-jun-hwa.jpg",
+    "박현조": "images/portraits/staff/park-hyeon-jo.jpg",
+    "변교선": "images/portraits/staff/byeon-gyo-seon.jpg",
+    "신경식": "images/portraits/staff/shin-gyeong-sik.jpg",
+    "신대식": "images/portraits/staff/shin-dae-sik.jpg",
+    "왕석호": "images/portraits/staff/wang-seok-ho.jpg",
+    "이근호": "images/portraits/staff/lee-geun-ho.jpg",
+    "이도균": "images/portraits/staff/lee-do-gyun.jpg",
+    "이은혜": "images/portraits/staff/lee-eun-hye-staff.jpg",
+    "이현만": "images/portraits/lee-hyunman-hero.jpg",
+    "정범준": "images/portraits/staff/jeong-beom-jun.jpg",
+    "정준호": "images/portraits/staff/jeong-jun-ho.jpg",
+    "정판성": "images/portraits/staff/jeong-pan-seong.jpg",
+    "정행자": "images/portraits/staff/jeong-haengja.jpg",
+    "천정훈": "images/portraits/staff/cheon-jeong-hun.jpg",
+    "최정원": "images/portraits/staff/choi-jeong-won.jpg",
+    "최종련": "images/portraits/staff/choi-jong-ryeon.jpg"
+  },
+  "organization": {
+    "since": "2026-04-23",
+    "executive": [
+      {
+        "role": "여성회장",
+        "members": [
+          {
+            "name": "정행자"
+          }
+        ]
+      },
+      {
+        "role": "명예회장",
+        "members": [
+          {
+            "name": "왕석호"
+          },
+          {
+            "name": "신경식"
+          }
+        ]
+      },
+      {
+        "role": "감사",
+        "members": [
+          {
+            "name": "김병완"
+          },
+          {
+            "name": "곽현만"
+          }
+        ]
+      },
+      {
+        "role": "전무이사",
+        "members": [
+          {
+            "name": "최정원"
+          }
+        ]
+      },
+      {
+        "role": "사무국",
+        "members": [
+          {
+            "name": "김경석",
+            "subtitle": "국장"
+          },
+          {
+            "name": "김동욱",
+            "subtitle": "차장"
+          }
+        ]
+      }
+    ],
+    "vicePresidents": [
+      "이근호",
+      "박준화",
+      "정복윤",
+      "김형철",
+      "박현조",
+      "정정안",
+      "박중수",
+      "박상성",
+      "천정훈",
+      "진동인",
+      "정종채",
+      "이남철",
+      "배진호",
+      "박영민",
+      "김정환",
+      "강형택",
+      "고병용",
+      "공성식"
+    ],
+    "directors": [
+      {
+        "dept": "심판이사",
+        "members": [
+          "박성근",
+          "이재준"
+        ]
+      },
+      {
+        "dept": "기획이사",
+        "members": [
+          "김효민",
+          "김혁규"
+        ]
+      },
+      {
+        "dept": "의전이사",
+        "members": [
+          "김철수",
+          "정일호",
+          "박민우",
+          "박대현"
+        ]
+      },
+      {
+        "dept": "대회이사",
+        "members": [
+          "변교선",
+          "이은혜",
+          "채승균"
+        ]
+      },
+      {
+        "dept": "총무이사",
+        "members": [
+          "김유진"
+        ]
+      },
+      {
+        "dept": "조직이사",
+        "members": [
+          "김형남",
+          "박종일",
+          "정범준"
+        ]
+      },
+      {
+        "dept": "홍보이사",
+        "members": [
+          "김호종",
+          "박재형",
+          "신대식"
+        ]
+      },
+      {
+        "dept": "경기이사",
+        "members": [
+          "김호준",
+          "이희연",
+          "김수지",
+          "박종남"
+        ]
+      },
+      {
+        "dept": "여성이사",
+        "members": [
+          "홍선희",
+          "이하윤",
+          "강미진",
+          "정미나",
+          "정영애",
+          "이은진",
+          "강순덕",
+          "정진이"
+        ]
+      }
+    ],
+    "honorary": {
+      "고문위원": [
+        "정윤표",
+        "김정민",
+        "김양기",
+        "박규관",
+        "김순빈",
+        "김영배",
+        "박평수",
+        "조응규",
+        "고중안",
+        "김상배",
+        "지말오",
+        "박종팔",
+        "문성길"
+      ],
+      "자문위원": [
+        "김봉식",
+        "박승영",
+        "신양우",
+        "김정현",
+        "김종훈",
+        "서철",
+        "정준호",
+        "김동식",
+        "이형태",
+        "이천섭",
+        "정순균",
+        "정정식",
+        "유남기",
+        "강강식",
+        "강경진",
+        "허봉균",
+        "김선주",
+        "기문중",
+        "김문복",
+        "이대길",
+        "최종배",
+        "신현재",
+        "박휘우",
+        "김민석",
+        "정광조",
+        "최병일",
+        "이승주",
+        "김현철",
+        "김창길",
+        "임규성"
+      ]
+    }
+  }
+}

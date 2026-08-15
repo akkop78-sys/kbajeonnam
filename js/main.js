@@ -1,11 +1,42 @@
 (function () {
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".nav");
+  const header = document.querySelector(".site-header");
+
+  function setNavOpen(open) {
+    if (!nav || !toggle) return;
+    nav.classList.toggle("open", open);
+    toggle.setAttribute("aria-expanded", open ? "true" : "false");
+    document.body.classList.toggle("nav-open", open);
+  }
+
+  function closeNav() {
+    setNavOpen(false);
+  }
+
   if (toggle && nav) {
     toggle.addEventListener("click", () => {
-      nav.classList.toggle("open");
-      const open = nav.classList.contains("open");
-      toggle.setAttribute("aria-expanded", open ? "true" : "false");
+      setNavOpen(!nav.classList.contains("open"));
+    });
+
+    nav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", closeNav);
+    });
+
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") closeNav();
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!nav.classList.contains("open")) return;
+      const target = e.target;
+      if (target instanceof Node && header && !header.contains(target)) {
+        closeNav();
+      }
+    });
+
+    window.addEventListener("resize", () => {
+      if (window.matchMedia("(min-width: 901px)").matches) closeNav();
     });
   }
 
@@ -35,7 +66,7 @@
           }
         });
       },
-      { threshold: 0.15 }
+      { threshold: 0.08, rootMargin: "0px 0px -8% 0px" }
     );
     reveals.forEach((el) => io.observe(el));
   } else {
