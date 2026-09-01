@@ -1,0 +1,17 @@
+{
+  "name": "전남권투협회 site preview",
+  "install": "python3 --version",
+  "terminals": [
+    {
+      "name": "preview",
+      "command": "cd /workspace && python3 전남권투협회.py",
+      "description": "정적 홈페이지 미리보기 서버 (http://127.0.0.1:8080/). website/ 폴더를 서빙하고, 부팅 시 중앙회(KBA) 피드를 website/data/kba.json 으로 동기화한 뒤 30분마다 갱신합니다."
+    }
+  ],
+  "ports": [
+    {
+      "name": "web",
+      "port": 8080
+    }
+  ]
+}
