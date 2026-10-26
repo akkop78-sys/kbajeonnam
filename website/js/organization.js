@@ -144,7 +144,6 @@
       { name: "곽현만", role: "감사" },
       { name: "왕석호", role: "명예회장" },
       { name: "신경식", role: "명예회장" },
-      { name: "김경석", role: "사무국장" },
       { name: "이근호", role: "부회장" },
     ].map((item) => ({
       ...item,

@@ -15,7 +15,6 @@
     "고병용": "images/portraits/staff/ko-byeong-yong.jpg",
     "공성식": "images/portraits/staff/gong-seong-sik.jpg",
     "곽현만": "images/portraits/staff/kwak-hyeon-man.jpg",
-    "김경석": "images/portraits/staff/kim-gyeong-seok.jpg",
     "김민석": "images/portraits/staff/kim-min-seok.jpg",
     "김병완": "images/portraits/staff/kim-byeong-wan.jpg",
     "김봉식": "images/portraits/staff/kim-bong-sik.jpg",
@@ -91,10 +90,6 @@
       {
         "role": "사무국",
         "members": [
-          {
-            "name": "김경석",
-            "subtitle": "국장"
-          },
           {
             "name": "김동욱",
             "subtitle": "차장"
