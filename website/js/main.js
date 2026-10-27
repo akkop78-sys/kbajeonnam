@@ -1,4 +1,15 @@
 (function () {
+  if (location.protocol === "file:") {
+    const banner = document.createElement("div");
+    banner.className = "notice-banner";
+    banner.style.position = "sticky";
+    banner.style.top = "0";
+    banner.style.zIndex = "9999";
+    banner.innerHTML =
+      '사진·조직도·발대식 갤러리는 <strong>http://127.0.0.1:8765</strong> 로 미리보기 해 주세요. HTML 파일을 직접 열면 표시되지 않습니다. <code>website/미리보기.bat</code> 또는 <code>preview.bat</code> 을 실행하세요.';
+    document.body.prepend(banner);
+  }
+
   const toggle = document.querySelector(".nav-toggle");
   const nav = document.querySelector(".nav");
   const header = document.querySelector(".site-header");
@@ -56,21 +67,62 @@
   });
 
   const reveals = document.querySelectorAll(".reveal");
+  const showReveal = (el) => el.classList.add("visible");
+
+  function revealHashTarget(el) {
+    if (!el) return;
+    if (el.classList.contains("reveal")) showReveal(el);
+    el.querySelectorAll(".reveal").forEach(showReveal);
+    el.closest(".reveal")?.classList.add("visible");
+  }
+
+  // 갤러리 등 비동기 콘텐츠가 늘어난 뒤에도 #해시 위치가 맞도록 재스크롤
+  function scrollToHash() {
+    const hash = location.hash;
+    if (!hash || hash.length < 2) return;
+    let el = null;
+    try {
+      el = document.querySelector(hash);
+    } catch (_) {
+      return;
+    }
+    if (!el) return;
+    revealHashTarget(el);
+    el.scrollIntoView({ block: "start", behavior: "auto" });
+  }
+
+  window.__scrollToHash = scrollToHash;
+
+  if (location.hash) {
+    revealHashTarget(document.querySelector(location.hash));
+    scrollToHash();
+  }
+
+  window.addEventListener("hashchange", scrollToHash);
+  window.addEventListener("load", () => {
+    scrollToHash();
+    [150, 500, 1200].forEach((ms) => setTimeout(scrollToHash, ms));
+  });
+
   if ("IntersectionObserver" in window) {
     const io = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
-            entry.target.classList.add("visible");
+            showReveal(entry.target);
             io.unobserve(entry.target);
           }
         });
       },
-      { threshold: 0.08, rootMargin: "0px 0px -8% 0px" }
+      // 긴 블록은 8% 노출이 어려워 화면에서 안 보이는 경우가 있어 완화
+      { threshold: 0, rootMargin: "0px 0px -32px 0px" }
     );
-    reveals.forEach((el) => io.observe(el));
+    reveals.forEach((el) => {
+      if (el.classList.contains("visible")) return;
+      io.observe(el);
+    });
   } else {
-    reveals.forEach((el) => el.classList.add("visible"));
+    reveals.forEach(showReveal);
   }
 
   const form = document.querySelector("#contact-form");

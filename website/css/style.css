@@ -204,9 +204,9 @@ a {
   position: relative;
   z-index: 2;
   display: grid;
-  grid-template-columns: minmax(0, 1fr) min(300px, 32vw);
-  gap: clamp(1.25rem, 4vw, 2.75rem);
-  align-items: end;
+  grid-template-columns: minmax(0, 1fr) min(280px, 26vw);
+  gap: clamp(1.5rem, 4vw, 2.8rem);
+  align-items: start;
   padding: 5rem 0 4.25rem;
 }
 
@@ -221,7 +221,8 @@ a {
   flex-direction: column;
   gap: 0.85rem;
   width: 100%;
-  max-width: min(300px, 32vw);
+  max-width: min(280px, 26vw);
+  padding-top: 0.2rem;
 }
 
 .hero-inauguration:empty {
@@ -230,7 +231,93 @@ a {
 
 .hero-president {
   width: 100%;
-  max-width: 300px;
+  max-width: 180px;
+  margin-top: 1.35rem;
+}
+
+.hero-career {
+  display: grid;
+  grid-template-columns: 180px 120px;
+  column-gap: 1.1rem;
+  align-items: start;
+  margin-top: 1.45rem;
+  max-width: none;
+}
+
+.hero-career .hero-president {
+  max-width: 180px;
+  margin-top: 0;
+}
+
+.hero-career .hero-president-card img {
+  border-width: 3px;
+}
+
+.hero-career .hero-president-name {
+  font-size: 1.12rem;
+  margin-top: 0.55rem;
+}
+
+.hero-career .hero-president-link {
+  font-size: 0.8rem;
+}
+
+.hero-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 120px;
+}
+
+.hero-timeline li {
+  margin: 0;
+  width: 120px;
+}
+
+.hero-timeline img {
+  width: 120px;
+  height: 120px;
+  max-width: 120px;
+  max-height: 120px;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
+  background: #0a1628;
+}
+
+.hero-timeline .year:empty {
+  display: none;
+}
+
+.hero-timeline .year {
+  display: block;
+  margin-top: 0.28rem;
+  color: var(--gold);
+  font-size: 0.66rem;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+}
+
+.hero-timeline .year:empty + .cap {
+  margin-top: 0.28rem;
+}
+
+.hero-timeline .cap {
+  display: block;
+  font-size: 0.64rem;
+  line-height: 1.3;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.hero-poster {
+  width: 100%;
+  margin: 0;
+  animation: rise 0.9s ease 0.08s both;
 }
 
 .inauguration-video--hero {
@@ -667,8 +754,17 @@ a {
   box-shadow: var(--shadow);
 }
 
-.inauguration-wall {
-  margin-top: 1.25rem;
+.inauguration-highlight {
+  margin: 0 0 1.35rem;
+}
+
+.inauguration-highlight .inauguration-video--hero {
+  max-width: 720px;
+}
+
+.inauguration-highlight .inauguration-video--hero video {
+  max-height: none;
+  aspect-ratio: 16 / 9;
 }
 
 .inauguration-photo {
@@ -1244,6 +1340,11 @@ details.org-source summary {
   font-weight: 700;
 }
 
+.gallery-item.booklet-page {
+  aspect-ratio: 3 / 4;
+  background-color: #1a1020;
+}
+
 .form-grid {
   display: grid;
   gap: 0.85rem;
@@ -1661,18 +1762,37 @@ details.org-source summary {
 
   .hero-aside {
     justify-self: center;
-    max-width: min(320px, 92vw);
-    order: 2;
+    max-width: min(320px, 78vw);
+    order: -1;
   }
 
   .hero-president {
-    justify-self: center;
-    max-width: min(220px, 72vw);
-    margin-top: 0;
+    justify-self: start;
+    max-width: min(180px, 48vw);
+    margin-top: 1rem;
   }
 
-  .inauguration-video--hero video {
-    max-height: min(36vw, 180px);
+  .hero-career {
+    grid-template-columns: min(180px, 42vw) 120px;
+    column-gap: 0.75rem;
+    max-width: none;
+    justify-items: start;
+  }
+
+  .hero-career .hero-president {
+    max-width: min(180px, 42vw);
+  }
+
+  .hero-timeline {
+    width: 120px;
+  }
+
+  .hero-timeline li {
+    width: 120px;
+  }
+
+  .inauguration-highlight .inauguration-video--hero {
+    max-width: 100%;
   }
 
   .hero-cta {
@@ -1736,7 +1856,6 @@ details.org-source summary {
   .brand-mark {
     width: 40px;
     height: 40px;
-    font-size: 0.62rem;
   }
 
   .people-strip,
@@ -1782,5 +1901,408 @@ details.org-source summary {
 
   .gallery-item {
     min-height: 120px;
+  }
+
+  .news-facts {
+    grid-template-columns: 1fr !important;
+  }
+
+  .prose .news-gallery {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+
+.news-hero {
+  margin: 0 0 1.5rem;
+}
+
+.news-hero img {
+  width: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  border: 1px solid rgba(12, 35, 64, 0.08);
+}
+
+.news-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.85rem;
+  margin: 1.35rem 0 1.75rem;
+  padding: 0;
+}
+
+.news-facts div {
+  background: #f6f4ef;
+  padding: 0.85rem 1rem;
+  border: 1px solid rgba(12, 35, 64, 0.08);
+}
+
+.news-facts dt {
+  margin: 0;
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+}
+
+.news-facts dd {
+  margin: 0.2rem 0 0;
+  font-weight: 700;
+}
+
+.news-lead {
+  font-size: 1.08rem;
+}
+
+.prose .news-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.65rem;
+  margin-top: 1.25rem;
+}
+
+.prose .news-gallery a {
+  display: block;
+  overflow: hidden;
+  border: 1px solid rgba(12, 35, 64, 0.08);
+}
+
+.prose .news-gallery img {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.event-spotlight {
+  background:
+    radial-gradient(ellipse 70% 80% at 8% 20%, rgba(240, 180, 41, 0.22), transparent 50%),
+    radial-gradient(ellipse 50% 60% at 100% 80%, rgba(232, 93, 4, 0.18), transparent 45%),
+    linear-gradient(165deg, #081628 0%, #0c2340 55%, #122a4a 100%);
+  color: #fff;
+  padding: 2.4rem 0 2.6rem;
+  border-bottom: 4px solid var(--gold);
+}
+
+.event-poster-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.event-poster-wrap .hero-cta {
+  justify-content: center;
+}
+
+.fight-poster {
+  display: block;
+  width: min(100%, 420px);
+  margin: 0 auto 1.25rem;
+  background: #050b14;
+  border: 3px solid var(--gold);
+  box-shadow: 0 28px 64px rgba(0, 0, 0, 0.55);
+}
+
+.fight-poster img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.fight-poster--lg {
+  width: min(100%, 520px);
+}
+
+.champ-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.55rem 0.85rem;
+  width: 100%;
+  margin: 1.35rem 0 0.85rem;
+  padding: 0.85rem 1.25rem;
+  color: #1c1406;
+  background:
+    linear-gradient(180deg, #fff4c8 0%, #f0c14d 28%, #c99612 52%, #f6d36a 72%, #b8860b 100%);
+  border: 2px solid #fff6d2;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.65),
+    0 0 0 3px #7a5200,
+    0 10px 26px rgba(0, 0, 0, 0.38);
+}
+
+.champ-banner span {
+  font-family: var(--display);
+  letter-spacing: 0.2em;
+  font-size: 1.15rem;
+  color: #5c3d00;
+}
+
+.champ-banner strong {
+  font-family: var(--serif);
+  font-size: clamp(1.15rem, 2.6vw, 1.7rem);
+  line-height: 1.25;
+  color: #0c2340;
+}
+
+.event-spotlight-poster .event-main-names {
+  font-size: clamp(1.7rem, 4vw, 2.55rem);
+  margin-top: 0.15rem;
+}
+
+.event-spotlight-poster .event-spotlight-meta {
+  justify-content: center;
+}
+
+.event-spotlight-kicker {
+  margin: 0 0 0.45rem;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  color: var(--gold);
+}
+
+.event-spotlight-date {
+  margin: 0;
+  font-family: var(--display);
+  font-size: clamp(2.4rem, 6vw, 4.4rem);
+  line-height: 0.92;
+  letter-spacing: 0.04em;
+}
+
+.event-spotlight h2 {
+  font-family: var(--serif);
+  margin: 0.7rem 0 0.35rem;
+  font-size: clamp(1.85rem, 3.2vw, 2.7rem);
+}
+
+.event-spotlight-sub {
+  margin: 0 0 1.15rem;
+  font-size: 1.12rem;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+.event-spotlight-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.1rem;
+  margin: 0 0 1.35rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.95rem;
+}
+
+.event-main {
+  background:
+    linear-gradient(180deg, rgba(12, 20, 36, 0.55), rgba(8, 16, 28, 0.35)),
+    rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(240, 180, 41, 0.45);
+  padding: 0.85rem 0.9rem 1.25rem;
+}
+
+.title-placard {
+  position: relative;
+  text-align: center;
+  padding: 0.95rem 0.85rem 1rem;
+  margin: 0 0 1rem;
+  color: #1c1406;
+  background:
+    linear-gradient(180deg, #fff3c4 0%, #f0c14d 22%, #d4a017 48%, #f6d36a 62%, #b8860b 100%);
+  border: 2px solid #fff6d2;
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.7),
+    inset 0 -2px 0 rgba(110, 70, 0, 0.35),
+    0 0 0 3px #8a5a00,
+    0 12px 28px rgba(0, 0, 0, 0.4);
+}
+
+.title-placard::before,
+.title-placard::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  margin-top: -5px;
+  background: radial-gradient(circle at 35% 35%, #fff6d2, #c9a227 55%, #6a4b00);
+  border: 1px solid #fff1b8;
+  box-shadow: 0 0 0 2px #8a5a00;
+}
+
+.title-placard::before { left: 8px; }
+.title-placard::after { right: 8px; }
+
+.title-placard-org {
+  display: block;
+  font-family: var(--display);
+  letter-spacing: 0.22em;
+  font-size: 0.92rem;
+  color: #5c3d00;
+}
+
+.title-placard b {
+  display: block;
+  font-family: var(--serif);
+  font-size: clamp(1.05rem, 2.1vw, 1.28rem);
+  line-height: 1.25;
+  margin: 0.15rem 0 0.1rem;
+  color: #0c2340;
+}
+
+.title-placard em {
+  display: block;
+  font-style: normal;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+  color: #6a4300;
+}
+
+.event-main-label {
+  display: block;
+  color: var(--gold);
+  font-weight: 800;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  margin: 0 0 0.45rem;
+}
+
+.event-main-names {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+  margin: 0;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  line-height: 1.3;
+  text-align: center;
+}
+
+.event-main-names span {
+  font-family: var(--display);
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+}
+
+.event-main p {
+  margin: 0.4rem 0 0;
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+}
+
+.bout-list .title-placard {
+  margin: 0 0 0.55rem;
+  padding: 0.65rem 0.7rem;
+}
+
+.bout-list .title-placard b {
+  font-size: 1.05rem;
+}
+
+.bout-list {
+  list-style: none;
+  margin: 1rem 0 0;
+  padding: 0;
+}
+
+.bout-list li {
+  display: grid;
+  grid-template-columns: 2.2rem 1fr;
+  gap: 0.75rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid rgba(12, 35, 64, 0.08);
+}
+
+.bout-list li.is-main {
+  background: #fff8e8;
+  margin: 0 -1rem;
+  padding: 0.95rem 1rem;
+  border: 1px solid #e7d19a;
+}
+
+.bout-no {
+  font-family: var(--display);
+  font-size: 1.35rem;
+  color: var(--navy);
+}
+
+.host-card {
+  background:
+    radial-gradient(ellipse 80% 70% at 100% 0%, rgba(240, 180, 41, 0.28), transparent 55%),
+    linear-gradient(160deg, #0c2340 0%, #16345c 100%);
+  color: #fff;
+  padding: 1.25rem 1.35rem 1.35rem;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(240, 180, 41, 0.35);
+}
+
+.host-card-kicker {
+  margin: 0 0 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--gold);
+}
+
+.host-card h3 {
+  font-family: var(--serif);
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.3;
+}
+
+.host-card-sub {
+  margin: 0.35rem 0 0.85rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.host-card dl {
+  display: grid;
+  gap: 0.45rem;
+  margin: 0 0 1rem;
+}
+
+.host-card dl > div {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  gap: 0.5rem;
+  font-size: 0.92rem;
+}
+
+.host-card dt {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.55);
+}
+
+.host-card dd {
+  margin: 0;
+  font-weight: 600;
+}
+
+.host-card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.host-card-actions .btn {
+  margin: 0;
+}
+
+.board-list li.is-ours a {
+  font-weight: 700;
+}
+
+.badge-host {
+  background: var(--gold);
+  color: #0c2340;
+}
+
+@media (max-width: 800px) {
+  .champ-banner {
+    flex-direction: column;
+    gap: 0.2rem;
   }
 }

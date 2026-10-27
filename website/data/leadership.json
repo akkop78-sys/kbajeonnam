@@ -17,12 +17,13 @@
     "곽현만": "images/portraits/staff/kwak-hyeon-man.jpg",
     "김민석": "images/portraits/staff/kim-min-seok.jpg",
     "김병완": "images/portraits/staff/kim-byeong-wan.jpg",
-    "김봉식": "images/portraits/staff/kim-bong-sik.jpg",
+    "김봉식": "images/portraits/staff/kim-bong-sik.jpg?v=id3",
     "김유진": "images/portraits/staff/kim-yu-jin.jpg",
     "김정민": "images/portraits/staff/kim-jeong-min.jpg",
-    "김철수": "images/portraits/staff/kim-cheol-su.jpg",
+    "김철수": "images/portraits/staff/kim-cheol-su.jpg?v=id1",
     "김호종": "images/portraits/staff/kim-ho-jong.jpg",
     "김효민": "images/portraits/staff/kim-hyo-min.jpg",
+    "문마초": "images/portraits/staff/moon-ma-cho.jpg",
     "문성길": "images/portraits/staff/moon-sung-kil-staff.jpg",
     "박대현": "images/portraits/staff/park-dae-hyeon.jpg",
     "박민우": "images/portraits/staff/park-min-u.jpg",
@@ -33,18 +34,161 @@
     "변교선": "images/portraits/staff/byeon-gyo-seon.jpg",
     "신경식": "images/portraits/staff/shin-gyeong-sik.jpg",
     "신대식": "images/portraits/staff/shin-dae-sik.jpg",
-    "왕석호": "images/portraits/staff/wang-seok-ho.jpg",
+    "왕석호": "images/portraits/staff/wang-seok-ho.jpg?v=16",
     "이근호": "images/portraits/staff/lee-geun-ho.jpg",
     "이도균": "images/portraits/staff/lee-do-gyun.jpg",
     "이은혜": "images/portraits/staff/lee-eun-hye-staff.jpg",
     "이현만": "images/portraits/lee-hyunman-hero.jpg",
     "정범준": "images/portraits/staff/jeong-beom-jun.jpg",
+    "정일호": "images/portraits/staff/jeong-il-ho.jpg?v=ratio1",
     "정준호": "images/portraits/staff/jeong-jun-ho.jpg",
     "정판성": "images/portraits/staff/jeong-pan-seong.jpg",
     "정행자": "images/portraits/staff/jeong-haengja.jpg",
     "천정훈": "images/portraits/staff/cheon-jeong-hun.jpg",
-    "최정원": "images/portraits/staff/choi-jeong-won.jpg",
-    "최종련": "images/portraits/staff/choi-jong-ryeon.jpg"
+    "최정원": "images/portraits/staff/choi-jeong-won.jpg?v=ratio1",
+    "최종련": "images/portraits/staff/choi-jong-ryeon.jpg",
+    "홍선희": "images/portraits/staff/hong-seon-hee.jpg"
+  },
+  "tournamentCommittee": {
+    "title": "11.28 이순신장군배 대회추진위",
+    "subtitle": "WBF 아시아퍼시픽 실버 챔피언 결정전",
+    "eventDate": "2026-11-28",
+    "eventLabel": "2026. 11. 28.",
+    "levels": [
+      {
+        "boxes": [
+          {
+            "role": "총괄추진위원장",
+            "note": "대회 추진 총괄",
+            "variant": "is-top",
+            "members": [
+              {
+                "name": "변교선"
+              }
+            ]
+          },
+          {
+            "role": "추진위원장",
+            "note": "추진 실무 총괄",
+            "variant": "accent",
+            "members": [
+              {
+                "name": "최정원"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boxes": [
+          {
+            "role": "사무국장",
+            "note": "전체 사무·연락",
+            "members": [
+              {
+                "name": "문마초"
+              }
+            ]
+          },
+          {
+            "role": "명예회장",
+            "note": "자문·후원",
+            "members": [
+              {
+                "name": "왕석호"
+              },
+              {
+                "name": "신경식"
+              }
+            ]
+          },
+          {
+            "role": "운영위원장",
+            "note": "현장·운영 총괄",
+            "members": [
+              {
+                "name": "김봉식"
+              }
+            ]
+          },
+          {
+            "role": "전남지회장",
+            "note": "주최·후원",
+            "members": [
+              {
+                "name": "이현만"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boxes": [
+          {
+            "role": "경기이사",
+            "note": "경기 운영·대진",
+            "members": [
+              {
+                "name": "김동욱"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boxes": [
+          {
+            "role": "재무국장",
+            "note": "예산·정산·후원금",
+            "members": [
+              {
+                "name": "정일호"
+              }
+            ]
+          },
+          {
+            "role": "총무국장",
+            "note": "현장 준비·행정·지원",
+            "members": [
+              {
+                "name": "김유진"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "boxes": [
+          {
+            "role": "사무차장",
+            "note": "사무국 보좌",
+            "members": [
+              {
+                "name": "박재형"
+              }
+            ]
+          },
+          {
+            "role": "재무차장",
+            "note": "재무·정산 보좌",
+            "members": [
+              {
+                "name": "김철수"
+              }
+            ]
+          },
+          {
+            "role": "총무차장",
+            "note": "행정·지원 보좌",
+            "members": [
+              {
+                "name": "홍선희"
+              }
+            ]
+          }
+        ]
+      }
+    ]
   },
   "organization": {
     "since": "2026-04-23",
@@ -88,18 +232,16 @@
         ]
       },
       {
-        "role": "사무국",
+        "role": "경기이사",
         "members": [
           {
-            "name": "김동욱",
-            "subtitle": "차장"
+            "name": "김동욱"
           }
         ]
       }
     ],
     "vicePresidents": [
       "이근호",
-      "박준화",
       "정복윤",
       "김형철",
       "박현조",
@@ -188,7 +330,6 @@
           "강미진",
           "정미나",
           "정영애",
-          "이은진",
           "강순덕",
           "정진이"
         ]
