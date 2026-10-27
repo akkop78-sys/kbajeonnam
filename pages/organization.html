@@ -4,8 +4,13 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="theme-color" content="#0c2340" />
+  <meta property="og:image" content="https://kbajeonnam.vercel.app/images/og-cover.jpg?v=15" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="1600" />
+  <meta property="og:image:alt" content="11.28 이순신장군배 WBF 아시아퍼시픽 실버 챔피언 결정전 포스터" />
+  <meta name="thumbnail" content="https://kbajeonnam.vercel.app/images/og-cover.jpg?v=15" />
   <title>조직도 | 전남권투협회</title>
-  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/style.css?v=ratio1" />
 </head>
 <body>
   <header class="site-header">
@@ -35,8 +40,8 @@
 
   <section class="page-hero">
     <div class="container">
-      <h1>조직도</h1>
-      <p>(사)한국권투협회 전남지회 · 발대식 기준 · 사진 있는 임원은 초상 표시</p>
+      <h1 data-org="committee-title">11.28 이순신장군배 대회추진위</h1>
+      <p data-org="committee-desc">2026. 11. 28. · WBF 아시아퍼시픽 실버 챔피언 결정전</p>
     </div>
   </section>
 
@@ -45,61 +50,22 @@
       <div class="org-chart reveal" data-org="chart">
         <div class="org-level">
           <div class="org-box is-top">
-            <span class="role">회장</span>
+            <span class="role">총괄추진위원장</span>
             <div class="org-people">
               <div class="org-person">
-                <img class="org-president-photo" src="../images/portraits/lee-hyunman-hero.jpg" alt="이현만" width="120" height="150" />
-                <span class="who">이현만</span>
+                <span class="who">변교선</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="reveal stack-lg">
-        <div class="section-head">
-          <p class="section-kicker">BOARD</p>
-          <h2 class="section-title">부회장</h2>
-        </div>
-        <div class="person-grid" data-org="vice-presidents"></div>
-      </div>
-
-      <div class="reveal stack-lg">
-        <div class="section-head">
-          <p class="section-kicker">DIRECTORS</p>
-          <h2 class="section-title">이사 · 분장</h2>
-        </div>
-        <div class="dept-grid" data-org="directors"></div>
-      </div>
-
-      <div class="reveal stack-lg">
-        <div class="section-head">
-          <p class="section-kicker">ADVISORS</p>
-          <h2 class="section-title">고문 · 자문</h2>
-        </div>
-        <div class="org-block">
-          <h3>고문위원</h3>
-          <div class="person-grid" data-org="honorary-gomun"></div>
-        </div>
-        <div class="org-block">
-          <h3>자문위원</h3>
-          <div class="person-grid" data-org="honorary-jamun"></div>
-        </div>
-      </div>
-
-      <details class="org-source reveal">
-        <summary>책자 원본 조직도 보기</summary>
-        <figure class="scan-figure" style="margin-top:1rem;box-shadow:none;border:0">
-          <img src="../images/org-chart.jpg" alt="사단법인 한국권투협회 전남지회 조직도 원본" />
-        </figure>
-      </details>
     </div>
   </main>
 
   <footer class="site-footer">
     <div class="container"><p class="copyright">© 2026 (사)한국권투협회 전남지회</p></div>
   </footer>
-  <script src="../js/main.js"></script>
-  <script src="../js/organization.js"></script>
+  <script src="../js/main.js?v=hashscroll1"></script>
+  <script src="../js/organization.js?v=orginaug14"></script>
 </body>
 </html>
